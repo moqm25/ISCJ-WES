@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/main.css" />
         <title>ISCJ WES Home</title>
     </head>
-    <body class="bg-paleBlue dark:bg-gray-700">
+    <body>
         <!-- -------------------------------------------NAVBAR START---------------------------------------------------------- -->
         <nav
             class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 outline outline-black outline-offset-0">
@@ -92,67 +92,68 @@
             </div>
         </nav>
         <!-- -------------------------------------------NAVBAR END---------------------------------------------------------- -->
+        <div class="bg-paleBlue dark:bg-gray-700">
+            <!-- -------------------------------------------VIDEO START--------------------------------------------------------- -->
+            <div class="mt-1 flex items-center justify-center">
+                <video
+                    autoplay
+                    controls
+                    loop
+                    muted
+                    class="mt-0 mb-0 relative z-5 w-auto min-w-full min-h-0 max-w-none">
+                    <source src="vid/ISCJ_WES_Video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- -------------------------------------------VIDEO END---------------------------------------------------------- -->
 
-        <!-- -------------------------------------------VIDEO START--------------------------------------------------------- -->
-        <div class="mt-1 flex items-center justify-center">
-            <video
-                autoplay
-                controls
-                loop
-                muted
-                class="mt-0 mb-0 relative z-5 w-auto min-w-full min-h-0 max-w-none">
-                <source src="vid/ISCJ_WES_Video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <!-- -------------------------------------------VIDEO END---------------------------------------------------------- -->
-
-        <!-- our missing Hero Section -->
-        <section id="hero">
-            <!-- our mission container -->
-            <div
-                class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
-                <!-- our missing -->
-                <div class="flex flex-col mb-10 space-y-12 md:w-1/2">
-                    <h1
-                        class="max-w-md text-4xl text-royalBlue dark:text-royalBlue font-bold text-center md:text-5xl md:text-left">
-                        Our Mission
-                    </h1>
-                    <p class="max-w-full text-center text-darkGrayishBlue md:text-left">
-                        Most of our kids attend public school where they do not receive formal
-                        Islamic education. The primary goal of the ISCJ Weekend School is to fill
-                        this gap by equipping its students with fundamental Islamic knowledge,
-                        values, and attitudes to function as a contributing member of our growing
-                        Muslim society in the U.S. We seek to make this process a quality and fun
-                        experience, and to create a sense of belonging to Muslim community.
-                    </p>
-                    <!-- about us -->
-                    <div class="flex justify-center md:justify-start">
-                        <a
-                            href="./about.html"
-                            class="border-collapse inline py-2 pl-3 pr-4 text-veryDarkBlue border border-veryDarkBlue hover:bg-paleBlue font-bold uppercase rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:text-gray-400 dark:hover:text-veryDarkBlue dark:border-paleBlue"
-                            >About Us
-                            <svg
-                                aria-hidden="true"
-                                class="inline w-5 h-5 ml-2 -mr-1"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
+            <!-- our mission  Section -->
+            <section id="hero">
+                <!-- our mission container -->
+                <div
+                    class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+                    <!-- our missing -->
+                    <div class="flex flex-col mb-10 space-y-12 md:w-1/2">
+                        <h1
+                            class="max-w-md text-4xl text-royalBlue dark:text-royalBlue font-bold text-center md:text-5xl md:text-left">
+                            Our Mission
+                        </h1>
+                        <p class="max-w-full text-center text-darkGrayishBlue md:text-left">
+                            Most of our kids attend public school where they do not receive formal
+                            Islamic education. The primary goal of the ISCJ Weekend School is to
+                            fill this gap by equipping its students with fundamental Islamic
+                            knowledge, values, and attitudes to function as a contributing member of
+                            our growing Muslim society in the U.S. We seek to make this process a
+                            quality and fun experience, and to create a sense of belonging to Muslim
+                            community.
+                        </p>
+                        <!-- about us -->
+                        <div class="flex justify-center md:justify-start">
+                            <a
+                                href="./about.html"
+                                class="border-collapse inline py-2 pl-3 pr-4 text-veryDarkBlue border border-veryDarkBlue hover:bg-paleBlue font-bold uppercase rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:text-gray-400 dark:hover:text-veryDarkBlue dark:border-paleBlue"
+                                >About Us
+                                <svg
+                                    aria-hidden="true"
+                                    class="inline w-5 h-5 ml-2 -mr-1"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="hidden md:block md:w-1/2">
+                        <img src="img/quran.png" alt="" />
                     </div>
                 </div>
-                <!-- Image -->
-                <div class="hidden md:block md:w-1/2">
-                    <img src="img/quran.png" alt="" />
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
         <footer class="bg-white dark:bg-gray-900">
             <div class="grid grid-cols-1 gap-8 px-6 py-8 md:grid-cols-4">
                 <!-- logo -->
