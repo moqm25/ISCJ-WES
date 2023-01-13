@@ -126,7 +126,7 @@
                 <!-- our mission container -->
                 <div class="container mx-auto flex flex-col-reverse item-center px-0 md:px-6">
                     <div
-                        class="relative overflow-x-auto shadow-md sm:rounded-lg border border-veryDarkBlue">
+                        class="block relative overflow-x-auto shadow-md sm:rounded-lg border border-veryDarkBlue">
                         <table
                             class="w-full table-fixed text-sm text-left text-gray-500 dark:text-gray-400">
                             <!-- <caption
@@ -143,23 +143,26 @@
                             <thead
                                 class="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
-                                    <th scope="col" class="px-6 py-3 w-1/5">Year</th>
-                                    <th scope="col" class="px-6 py-3">Week #</th>
-                                    <th scope="col" class="px-6 py-3">Day</th>
+                                    <th scope="col" class="px-6 py-3 md: w-1/12">Year</th>
+                                    <th scope="col" class="px-6 py-3 w-2/12 whitespace-nowrap">
+                                        Week #
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 w-2/12">Day</th>
                                     <th scope="col" class="px-6 py-3">Date</th>
                                     <th scope="col" class="px-6 py-3">Reason</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr
-                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    class="border-b-8 border-gray-200 dark:border-gray-700 text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
                                     <th
                                         scope="row"
-                                        rowspan="7"
+                                        rowspan="8"
                                         class="px-6 py-4 font-bold text-gray-900 whitespace-nowrap dark:text-white">
-                                        2022
+                                        <p class="flip">2022</p>
                                     </th>
                                 </tr>
+
                                 <tr
                                     class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                                     <td class="px-6 py-4"></td>
@@ -179,7 +182,7 @@
                                 </tr>
                                 <tr
                                     class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                    <td class="px-6 py-4">Week 1</td>
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 1</td>
                                     <td class="px-6 py-4">Saturday <br />Sunday</td>
                                     <td class="px-6 py-4">September 10 <br />September 11</td>
                                     <td class="px-6 py-4">
@@ -188,7 +191,7 @@
                                 </tr>
                                 <tr
                                     class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                    <td class="px-6 py-4">Week 7</td>
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 7</td>
                                     <td class="px-6 py-4">Saturday <br />Sunday</td>
                                     <td class="px-6 py-4">October 22 <br />October 23</td>
                                     <td class="px-6 py-4">
@@ -201,7 +204,8 @@
                                     <td class="px-6 py-4 font-extrabold text-red-600">
                                         Saturday <br />Sunday
                                     </td>
-                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                    <td
+                                        class="px-6 py-4 font-extrabold text-red-600 whitespace-nowrap">
                                         November 26 <br />November 27
                                     </td>
                                     <td class="px-6 py-4 font-extrabold text-red-600">
@@ -209,14 +213,14 @@
                                     </td>
                                 </tr>
                                 <tr
-                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                    <td class="px-6 py-4">Week 14</td>
+                                    class="bg-white border-b font-bold dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 14</td>
                                     <td class="px-6 py-4">Saturday <br />Sunday</td>
-                                    <td class="px-6 py-4">Decemeber 17 <br />December 18</td>
+                                    <td class="px-6 py-4">December 17 <br />December 18</td>
                                     <td class="px-6 py-4">First Semester Exams</td>
                                 </tr>
                                 <tr
-                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    class="bg-white border-b-8 dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                                     <td class="px-6 py-4 font-extrabold text-red-600">Break</td>
                                     <td class="px-6 py-4 font-extrabold text-red-600">
                                         Saturday <br />Sunday
@@ -225,9 +229,138 @@
                                         December 24 & 31 <br />December 25 & January 1
                                     </td>
                                     <td class="px-6 py-4 font-extrabold text-red-600">
-                                        Winter Break - No Classes <br />Winter Break - No Classes
+                                        Winter Break - No Classes
                                     </td>
                                 </tr>
+                                <tr
+                                    class="border-b-8 border-gray-200 dark:border-gray-700 text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
+                                    <th
+                                        scope="row"
+                                        rowspan="13"
+                                        class="px-6 py-4 font-bold text-gray-900 whitespace-nowrap dark:text-white">
+                                        <p class="flip">2023</p>
+                                    </th>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b font-bold dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4">Week 16/ <br />Week 17</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">
+                                        January 14 or 21 <br />January 15 or 22
+                                    </td>
+                                    <td class="px-6 py-4">
+                                        Report Card Distribution - 1st Semester
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 19</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">February 4 <br />February 5</td>
+                                    <td class="px-6 py-4">
+                                        Parent-Teacher Conferences (asynchronous)
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 21</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">February 18<br />February 19</td>
+                                    <td class="px-6 py-4">
+                                        Quran Reading Competition (Grades 1-8)
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 23</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">March 4<br />March 5</td>
+                                    <td class="px-6 py-4">
+                                        Quran Memorization Competition (Grades KG, 1, 3, 5, & 7)
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 24</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">March 11<br />March 12</td>
+                                    <td class="px-6 py-4">
+                                        Quran Memorization Competition (Grades 2, 4, 6, & 8)
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b font-bold dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 25</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">March 18<br />March 19</td>
+                                    <td class="px-6 py-4">
+                                        Islamic Studies Quiz Competition (Grades KG-8)
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 font-extrabold text-red-600">Break</td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Saturday <br />Sunday
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        April 15 <br />April 16
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Spring Break/Ramadan Last Weekend - No Classes
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 font-extrabold text-red-600">Break</td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Saturday <br />Sunday
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        April 22 <br />April 23
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Eid al-Fitr - No Classes
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b font-bold dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 31</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">May 20<br />May 21</td>
+                                    <td class="px-6 py-4">Final Exams</td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 font-extrabold text-red-600">Break</td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Saturday <br />Sunday
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        May 27 <br />May 28
+                                    </td>
+                                    <td class="px-6 py-4 font-extrabold text-red-600">
+                                        Memorial Day - No Classes
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap">Week 32</td>
+                                    <td class="px-6 py-4">Saturday <br />Sunday</td>
+                                    <td class="px-6 py-4">June 3<br />June 4</td>
+                                    <td class="px-6 py-4">
+                                        Last Day of Classes - Report Card Distribution
+                                    </td>
+                                </tr>
+                                <tr
+                                    class="bg-white border-b font-bold dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 whitespace-nowrap"></td>
+                                    <td class="px-6 py-4">Sunday</td>
+                                    <td class="px-6 py-4">June 11</td>
+                                    <td class="px-6 py-4">Graduation for 9th Graders</td>
+                                </tr>
+                                <!-- whitespace-nowrap -->
                             </tbody>
                         </table>
                     </div>

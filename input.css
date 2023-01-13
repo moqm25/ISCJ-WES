@@ -3,16 +3,11 @@
 @tailwind utilities;
 
 body {
-  background-image: url('../img/bg-tablet-pattern.svg');
-  background-repeat: no-repeat;
   background-size: 800px;
   background-position: 90% -25%;
 }
 
-#cta {
-  background-image: url('../img/bg-simplify-section-desktop.svg');
-  background-repeat: no-repeat;
-}
+
 
 @media (max-width: 576px) {
   body {
@@ -20,9 +15,6 @@ body {
     background-size: 500px;
   }
 
-  #cta {
-    background-image: url('../img/bg-simplify-section-mobile.svg');
-  }
 }
 
 /* Hamburger Menu */
@@ -70,4 +62,10 @@ body {
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.flip{
+  position: absolute;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
 }
