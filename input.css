@@ -69,3 +69,9 @@ body {
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
+
+.noflip{
+  position: absolute;
+  transform-origin: 0 0;
+  transform: rotate(180deg);
+}
