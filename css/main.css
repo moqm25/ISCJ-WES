@@ -711,20 +711,12 @@ video {
   width: 16.666667%;
 }
 
-.w-1\/5 {
-  width: 20%;
-}
-
 .w-auto {
   width: auto;
 }
 
 .w-16 {
   width: 4rem;
-}
-
-.w-1\/6 {
-  width: 16.666667%;
 }
 
 .min-w-full {
