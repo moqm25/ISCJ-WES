@@ -10,7 +10,7 @@
 
         <title>ISCJ WES Register</title>
     </head>
-    <body class="bg-paleBlue dark:bg-gray-700">
+    <body class="bg-paleBlue dark:bg-gray-700" onload="msg()">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js"></script>
 
         <!-- -------------------------------------------NAVBAR START---------------------------------------------------------- -->
@@ -98,6 +98,16 @@
         </nav>
         <!-- -------------------------------------------NAVBAR END---------------------------------------------------------- -->
 
+        <!-- Modal toggle -->
+
+        <script>
+            function msg() {
+                alert(
+                    "ALL REGISTRATION WILL NOW BE IN PERSON. PLEASE COME INTO THE MAIN BUILDING FOR REGISTRATION."
+                );
+            }
+        </script>
+
         <div class="bg-paleBlue dark:bg-gray-700 mt-0">
             <br />
 
@@ -116,6 +126,7 @@
             </section>
             <br />
 
+            <!-- accordian -->
             <section id="hero">
                 <div
                     class="container mx-auto text-xs md:text-sm flex flex-col-reverse item-center px-0 md:px-6">
@@ -123,11 +134,11 @@
                         class="relative overflow-x-auto shadow-md sm:rounded-lg border border-veryDarkBlue">
                         <div id="accordion-collapse " data-accordion="collapse">
                             <table
-                                class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                <caption
+                                class="w-full table-fixed text-sm text-left text-gray-500 dark:text-gray-400">
+                                <!-- <caption
                                     class="p-5 text-lg font-semibold text-left bg-gray-200 text-royalBlue dark:bg-gray-800">
                                     Information for each Islamic Studies Book (KG-8th)
-                                </caption>
+                                </caption> -->
                                 <!-- kg -->
                                 <h2
                                     id="accordion-collapse-heading-1"
@@ -136,10 +147,10 @@
                                         type="button"
                                         class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                                         data-accordion-target="#accordion-collapse-body-1"
-                                        aria-expanded="false"
+                                        aria-expanded="true"
                                         aria-controls="accordion-collapse-body-1">
                                         <span>
-                                            <strong>Kindergarten:</strong> I am a Muslim (Level K)
+                                            <strong>Registration Information</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -154,170 +165,27 @@
                                         </svg>
                                     </button>
                                 </h2>
+
                                 <div
                                     id="accordion-collapse-body-1"
                                     class="hidden"
                                     aria-labelledby="accordion-collapse-heading-1">
                                     <div
-                                        class="p-5 font-light border border-b-0 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>
-                                                I am a Muslim / Muslima
-                                                <ol
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>I believe in Allah</li>
-                                                    <li>I believe in the Angels</li>
-                                                    <li>I believe in the Prophets</li>
-                                                    <li>I believe in the Holy Books</li>
-                                                    <li>I believe in the Day of Judgment</li>
-                                                    <li>I believe in Allah's Qadar</li>
-                                                </ol>
-                                            </li>
-                                            <li>
-                                                I believe in Allah
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Allah is the Creator of everything</li>
-                                                    <li>Allah is the Sustainer of everything</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Allah is our Lord
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Allah has rules that He wants us to obey
-                                                    </li>
-                                                    <li>The story of Adam and Eve</li>
-                                                    <li>
-                                                        I'm upset that we even have to bother
-                                                        styling this.
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                        class="p-5 font-light border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Registration is open from April to December. However, once
+                                        school starts, there will be late fees of $35 to register.
+                                        If you have any questions please e-mail
+                                        <a
+                                            href="mailto:admin@iscjwes.org"
+                                            class="underline text-royalBlue hover:text-veryDarkBlue dark:hover:text-paleBlue hover:font-bold"
+                                            >admin@iscjwes.org</a
+                                        >
+                                        <p class="font-semibold">
+                                            <br />
 
-                                            <li>
-                                                What are Angels?
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Difference between Angels, Jinn and Humans
-                                                    </li>
-                                                    <li>
-                                                        Angels have special duties (such as taking
-                                                        care of the weather, etc.)
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                What are Prophets?
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Prophets tell us how Allah wants us to
-                                                        behave
-                                                    </li>
-                                                    <li>The story of Prophet Noah</li>
-                                                    <li>The story of Prophet Ibrahim</li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                Prophet Muhammad (PBUH)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Introduction to his life before his marriage
-                                                        to Khadija
-                                                    </li>
-                                                    <li>The story of Adam and Eve</li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                The Day of Judgment
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        A very basic introduction on what the Day of
-                                                        Judgment is
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                The rules of Allah
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Shahadah</li>
-                                                    <ul
-                                                        class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                        <li>The story of Prophet Noah</li>
-                                                        <li>The story of Prophet Ibrahim</li>
-                                                    </ul>
-                                                    <li>Salat</li>
-                                                    <ul
-                                                        class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                        <li>
-                                                            Basic idea about when we perform the
-                                                            Salat
-                                                        </li>
-                                                        <li>Athan - to call the people to Salat</li>
-                                                        <li>Wudu Basic steps</li>
-                                                        <li>
-                                                            Practice the Suras that are needed to
-                                                            perform the Salat
-                                                        </li>
-                                                    </ul>
-                                                    <li>Zakat</li>
-                                                    <ul
-                                                        class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                        <li>
-                                                            Why do Muslims have to give money to the
-                                                            poor?
-                                                        </li>
-                                                    </ul>
-                                                    <li>Siyam</li>
-                                                    <ul
-                                                        class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                        <li>
-                                                            Introduce the idea of Siyam during
-                                                            Ramadan
-                                                        </li>
-                                                    </ul>
-                                                    <li>Hajj</li>
-                                                    <ul
-                                                        class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                        <li>A very basic idea of Hajj</li>
-                                                    </ul>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                What are Prophets?
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Prophets tell us how Allah wants us to
-                                                        behave
-                                                    </li>
-                                                    <li>The story of Prophet Noah</li>
-                                                    <li>The story of Prophet Ibrahim</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                What are Prophets?
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Prophets tell us how Allah wants us to
-                                                        behave
-                                                    </li>
-                                                    <li>The story of Prophet Noah</li>
-                                                    <li>The story of Prophet Ibrahim</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
+                                            ALL REGISTRATION WILL NOW BE IN PERSON. PLEASE COME INTO
+                                            THE MAIN BUILDING FOR REGISTRATION.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -332,7 +200,7 @@
                                         aria-expanded="false"
                                         aria-controls="accordion-collapse-body-2">
                                         <span>
-                                            <strong>1st Grade: </strong>I am a Muslim (Level 1)
+                                            <strong>New Students Registration</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -347,125 +215,25 @@
                                         </svg>
                                     </button>
                                 </h2>
+
                                 <div
                                     id="accordion-collapse-body-2"
                                     class="hidden"
                                     aria-labelledby="accordion-collapse-heading-2">
                                     <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>
-                                                I am a Muslim / Muslima
-                                                <ol
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>I believe in Allah</li>
-                                                    <li>I believe in the Angels</li>
-                                                    <li>I believe in the Prophets</li>
-                                                    <li>I believe in the Holy Books</li>
-                                                    <li>I believe in the Day of Judgment</li>
-                                                    <li>I believe in Allah's Qadar</li>
-                                                </ol>
-                                            </li>
-                                            <li>
-                                                I believe in Allah
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Allah is the Creator of everything</li>
-                                                    <li>Allah is the Sustainer of everything</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Allah's Creations
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Differences between Angels, Jinn and Humans
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>What are the Prophets and the Holy Books?</li>
-
-                                            <li>The story of Prophet Dawood</li>
-
-                                            <li>The story of Prophet Yunus</li>
-
-                                            <li>The story of Prophet Musa</li>
-                                            <li>The Story of Prophet Isa</li>
-                                            <li>
-                                                The life of Prophet Muhammad (PBUH)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        From after the death of Abdal Muttalib to
-                                                        Isra and Mairaj
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>The Day of Judgment</li>
-                                            <li>
-                                                Brief introduction to the concept of the Qadar of
-                                                Allah
-                                            </li>
-                                            <li>The Five Pillars of Islam?</li>
-                                            <li>The meaning of the Shahadah?</li>
-                                            <li>
-                                                Salat
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Athan</li>
-                                                    <li>Iqama</li>
-                                                    <li>Wudu</li>
-                                                    <li>The different types of Rakaat</li>
-                                                    <li>Number of Rakaat for each Salat</li>
-                                                </ul>
-                                            </li>
-                                            <li>How to perform Salat ul Fajr</li>
-                                            <li>How to perform Salat ul Zuhr.</li>
-                                            <li>
-                                                The story of Abu Talha
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Teaches the importance of concentrating on
-                                                        the Salat
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                The story of Muslim bin Yaser
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Teaches the importance of concentrating on
-                                                        the Salat
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>Introduction to Zakat</li>
-
-                                            <li>Siyam during Ramadan</li>
-
-                                            <li>
-                                                Hajj
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Where is Hajj performed?</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Manners and etiquette
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        The importance of saying Assalamu Alaikum
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ol>
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        All registration will now be in person. Please come into the
+                                        main building for registration.
+                                    </div>
+                                    <div
+                                        class="hidden p-5 font-light border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Please follow this guide to register for a new student:
+                                        <a
+                                            class="underline text-royalBlue hover:text-veryDarkBlue dark:hover:text-paleBlue hover:font-bold"
+                                            href="/pdf/ISCJWES_Registration_StepbyStep_Guide-NEW.pdf"
+                                            target="_blank"
+                                            >New Student Guide</a
+                                        >
                                     </div>
                                 </div>
 
@@ -480,7 +248,7 @@
                                         aria-expanded="false"
                                         aria-controls="accordion-collapse-body-3">
                                         <span>
-                                            <strong>2nd Grade:</strong> I am a Muslim (Level 2)
+                                            <strong>Returning Students Registration</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -500,121 +268,19 @@
                                     class="hidden"
                                     aria-labelledby="accordion-collapse-heading-3">
                                     <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>
-                                                I am a Muslim / Muslima
-                                                <ol
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>I believe in Allah</li>
-                                                    <li>I believe in the Angels</li>
-                                                    <li>I believe in the Prophets</li>
-                                                    <li>I believe in the Holy Books</li>
-                                                    <li>I believe in the Day of Judgment</li>
-                                                    <li>I believe in Allah's Qadar</li>
-                                                </ol>
-                                            </li>
-                                            <li>
-                                                I believe in Allah
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Allah is the Creator of everything</li>
-                                                    <li>Allah is the Sustainer of everything</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Allah's Creations
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Introduction to some of the duties of the
-                                                        Angels
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                The Prophets and the Holy Books
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Why were there more than one Holy Books</li>
-                                                    <li>
-                                                        Why was there only one Prophet (PBUH) who
-                                                        taught Islam
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>The story of Prophet Yusuf</li>
-                                            <li>The Story of Prophet Ayyub</li>
-
-                                            <li>
-                                                The life of Prophet Muhammad (PBUH)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        From Hijra to the building of the Masjid in
-                                                        Medina
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                The Day of Judgment
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>A Hadith teaching about heaven and hell</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Brief introduction to the concept of the Qadar of
-                                                Allah
-                                            </li>
-                                            <li>The Five Pillars of Islam?</li>
-
-                                            <li>Islam, Iman and Ihsan</li>
-                                            <li>The meaning of the Shahadah?</li>
-                                            <li>
-                                                Salat
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Athan</li>
-                                                    <li>Iqama</li>
-                                                    <li>Wudu</li>
-                                                    <li>The different types of Rakaat</li>
-                                                    <li>Number of Rakaat for each Salat</li>
-                                                    <li>Hadith about Athan and Wudu</li>
-
-                                                    <li>Hadith about the Salat</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Prophet Muhammad (PBUH) performed Salat during the
-                                                night
-                                            </li>
-                                            <li>Why Muslims have to pay Zakat</li>
-
-                                            <li>Ramadan and Lailat al Qadr</li>
-
-                                            <li>What Siyam teaches us: Zakat il Fitr</li>
-
-                                            <li>Eid al Fitr</li>
-
-                                            <li>
-                                                Hajj
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>An introduction</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Manners and etiquette
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Brotherhood and sisterhood in Islam</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        All registration will now be in person. Please come into the
+                                        main building for registration.
+                                    </div>
+                                    <div
+                                        class="hidden p-5 font-light border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Please follow this guide to register for returning students:
+                                        <a
+                                            class="underline text-royalBlue hover:text-veryDarkBlue dark:hover:text-paleBlue hover:font-bold"
+                                            href="/pdf/ISCJWES_Registration_StepbyStep_Guide-RETURNING.pdf"
+                                            target="_blank"
+                                            >Returning Student Guide</a
+                                        >
                                     </div>
                                 </div>
 
@@ -629,7 +295,7 @@
                                         aria-expanded="false"
                                         aria-controls="accordion-collapse-body-4">
                                         <span>
-                                            <strong>3rd Grade:</strong> I am a Muslim (Level 3)
+                                            <strong>Staff Registration</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -644,353 +310,15 @@
                                         </svg>
                                     </button>
                                 </h2>
+
                                 <div
                                     id="accordion-collapse-body-4"
                                     class="hidden"
                                     aria-labelledby="accordion-collapse-heading-4">
                                     <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>
-                                                Review: I am a Muslim / Muslima
-                                                <ol
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>I believe in Allah</li>
-                                                    <li>I believe in the Angels</li>
-                                                    <li>I believe in the Prophets</li>
-                                                    <li>I believe in the Holy Books</li>
-                                                    <li>I believe in the Day of Judgment</li>
-                                                    <li>I believe in Allah's Qadar</li>
-                                                    <li>The five pillars of Islam</li>
-                                                </ol>
-                                            </li>
-                                            <li>Allah - Ar-Rahman</li>
-                                            <li>
-                                                Allah's Creations
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Relationship between Angels, Jinn and Humans
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>The Prophets and the Holy Book</li>
-
-                                            <li>The story of Prophet Salih</li>
-
-                                            <li>The story of Prophet Suleyman</li>
-
-                                            <li>
-                                                The life of Prophet Muhammad (PBUH)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        From the beginning of life in Medina till
-                                                        the trouble with the Quraish
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li>The five pillars of Islam</li>
-
-                                            <li>
-                                                Salat
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Fard</li>
-                                                    <li>Sunnah</li>
-                                                    <li>Witr</li>
-                                                    <li>Salat al Jumah</li>
-                                                    <li>Salat al Eid</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Zakat
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Who has to pay Zakat?</li>
-                                                    <li>Who receives Zakat?</li>
-                                                    <li>Begging in Islam</li>
-                                                </ul>
-                                            </li>
-
-                                            <li>
-                                                Siyam
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Voluntary Siyam</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Hajj
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Rules and restrictions</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-
-                                <!-- 4th -->
-                                <h2
-                                    id="accordion-collapse-heading-10"
-                                    class="bg-white dark:bg-gray-800">
-                                    <button
-                                        type="button"
-                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-                                        data-accordion-target="#accordion-collapse-body-10"
-                                        aria-expanded="false"
-                                        aria-controls="accordion-collapse-body-10">
-                                        <span>
-                                            <strong>4th Grade:</strong> I am a Muslim (Level 4)
-                                        </span>
-                                        <svg
-                                            data-accordion-icon
-                                            class="w-6 h-6 shrink-0"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </button>
-                                </h2>
-                                <div
-                                    id="accordion-collapse-body-10"
-                                    class="hidden"
-                                    aria-labelledby="accordion-collapse-heading-10">
-                                    <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>Five Pillars - Review</li>
-                                            <li>The Meaning of Islam</li>
-                                            <li>Faith and Obedience to Allah</li>
-                                            <li>The Muslim Basic Beliefs</li>
-                                            <li>Faith and Shariah</li>
-                                            <li>Introduction to Halal and Haram</li>
-                                            <li>Knowledge, Education and Islam</li>
-                                            <li>Islamic Calendar</li>
-                                            <li>Islamic Expressions</li>
-                                            <li>Stories from the Qur'an - Maryam Story</li>
-                                        </ol>
-                                    </div>
-                                </div>
-
-                                <!-- 5th -->
-                                <h2
-                                    id="accordion-collapse-heading-5"
-                                    class="bg-white dark:bg-gray-800">
-                                    <button
-                                        type="button"
-                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-                                        data-accordion-target="#accordion-collapse-body-5"
-                                        aria-expanded="false"
-                                        aria-controls="accordion-collapse-body-5">
-                                        <span>
-                                            <strong>5th Grade:</strong> (1) I am a Muslim (Level 5),
-                                            (2) The Messenger of Allah - Makkah Period
-                                        </span>
-                                        <svg
-                                            data-accordion-icon
-                                            class="w-6 h-6 shrink-0"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </button>
-                                </h2>
-                                <div
-                                    id="accordion-collapse-body-5"
-                                    class="hidden"
-                                    aria-labelledby="accordion-collapse-heading-5">
-                                    <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>Five Pillars - Review</li>
-                                            <li>Seerah (book 2: 24-70)</li>
-                                            <li>
-                                                Principles of Halal and Haram-Guide to the life of a
-                                                Muslim (book 1)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>Halal and Haram - Food and Drink</li>
-                                                    <li>Halal and Haram - Clothing</li>
-                                                    <li>Halal and Haram - Home</li>
-                                                    <li>Halal and Haram - Earning a Living</li>
-                                                    <li>Halal and Haram - Business Transactions</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                Islamic Character-Ethics and Mannerism (book 1)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-[upper-alpha] list-inside">
-                                                    <li>
-                                                        Islamic Directives regarding Private and
-                                                        Public Life
-                                                    </li>
-                                                    <li>
-                                                        Islamic Directives regarding some
-                                                        Mischievous Acts
-                                                    </li>
-                                                    <li>
-                                                        Islamic Directives regarding some Personal
-                                                        Relationships
-                                                    </li>
-                                                    <li>
-                                                        Islamic Directives regarding some Community
-                                                        Relationship
-                                                    </li>
-                                                    <li>
-                                                        Islamic Directives regarding some Sinful
-                                                        Acts
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-
-                                <!-- 6th -->
-                                <h2
-                                    id="accordion-collapse-heading-6"
-                                    class="bg-white dark:bg-gray-800">
-                                    <button
-                                        type="button"
-                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-                                        data-accordion-target="#accordion-collapse-body-6"
-                                        aria-expanded="false"
-                                        aria-controls="accordion-collapse-body-6">
-                                        <span>
-                                            <strong>6th Grade:</strong> (1) The Messenger of Allah -
-                                            Madinah Period, (2) The Lawful and The Prohibited in
-                                            Islam, (3) Human Development as revealed in Qur'an and
-                                            Hadith
-                                        </span>
-                                        <svg
-                                            data-accordion-icon
-                                            class="w-6 h-6 shrink-0"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </button>
-                                </h2>
-                                <div
-                                    id="accordion-collapse-body-6"
-                                    class="hidden"
-                                    aria-labelledby="accordion-collapse-heading-6">
-                                    <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>Five Pillars - Review</li>
-                                            <li>
-                                                Seerah (book 1: 1-102)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                    <li>Reception in Madinah</li>
-                                                    <li>The importance of Hijrah</li>
-                                                    <li>Challenges in Madinah</li>
-                                                    <li>Foundation of the Islamic Community</li>
-                                                    <li>Evolution of the Islamic Community</li>
-                                                    <li>Jihad: A new policy begins</li>
-                                                    <li>The Ghazwah of Badr</li>
-                                                    <li>The Ghazwah of Uhud</li>
-                                                    <li>Ghazwah of Khandaq</li>
-                                                    <li>The Treaty of Hudaibiya</li>
-                                                    <li>Hudaiybiya: A Great Victory</li>
-                                                    <li>Islam: A Message for mankind</li>
-                                                    <li>The Liberation of Makkah</li>
-                                                    <li>The purification of Kabah</li>
-                                                    <li>An Appeal of Islam</li>
-                                                    <li>Hajjat-ul-Wada</li>
-                                                    <li>The final journey to Eternal Life</li>
-                                                    <li>The Mission Continues</li>
-                                                </ul>
-                                            </li>
-                                            <li>Parents and Children (book 2: 221-236)</li>
-                                            <li>Recreation and Play (book 2: 290-306)</li>
-                                            <li>Social Relations (book 2: 307-334)</li>
-                                            <li>
-                                                The Relationship of the Muslims with non-Muslims
-                                                (book 2: 335-345)
-                                            </li>
-                                            <li>
-                                                Human Development and Reproduction as revealed in
-                                                Qur'an and Hadith (book 3)
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-
-                                <!-- 7th -->
-                                <h2
-                                    id="accordion-collapse-heading-7"
-                                    class="bg-white dark:bg-gray-800">
-                                    <button
-                                        type="button"
-                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-                                        data-accordion-target="#accordion-collapse-body-7"
-                                        aria-expanded="false"
-                                        aria-controls="accordion-collapse-body-7">
-                                        <span>
-                                            <strong>7th Grade:</strong> (1) I am a Muslim (Level 7),
-                                            (2) Islam beliefs and Teachings
-                                        </span>
-                                        <svg
-                                            data-accordion-icon
-                                            class="w-6 h-6 shrink-0"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </button>
-                                </h2>
-                                <div
-                                    id="accordion-collapse-body-7"
-                                    class="hidden"
-                                    aria-labelledby="accordion-collapse-heading-7">
-                                    <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
-                                            <li>Review of the five pillars (book 1)</li>
-                                            <li>The Spiritual Path in Islam (book 1)</li>
-                                            <li>The Islamic Concept of Life (book 1)</li>
-                                            <li>The Shari'ah (book 1)</li>
-                                            <li>The Moral System of Islam (book 1)</li>
-                                            <li>
-                                                Essential Features of the Islamic Political System
-                                                (book 1)
-                                            </li>
-                                            <li>The Economic Principles of Islam (book 1)</li>
-                                            <li>Islamic Principles about Dress (book 1)</li>
-                                            <li>Social System of Islam (book 1)</li>
-                                            <li>
-                                                Marriages, Husband & Wife Relationship, and Divorce
-                                                (book 1: 52-54) & (book 2: 171-222)
-                                            </li>
-                                            <li>Commandments of Al-Hijab (book 1: 45-47)</li>
-                                            <li>Divine Laws for the Movement of Women (TBD)</li>
-                                        </ol>
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        INFORMATION ABOUT REGISTRATION FOR STAFF MEMEBERS WILL BE
+                                        PLACED HERE
                                     </div>
                                 </div>
 
@@ -1005,9 +333,7 @@
                                         aria-expanded="false"
                                         aria-controls="accordion-collapse-body-8">
                                         <span>
-                                            <strong>8th Grade:</strong> (1) A study of the Qur'an
-                                            and its teachings, (2) The history of Al-Khilafah
-                                            Ar-Rashidah
+                                            <strong>Admissions</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -1027,34 +353,17 @@
                                     class="hidden"
                                     aria-labelledby="accordion-collapse-heading-8">
                                     <div
-                                        class="p-5 bg-gray-50 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        <p class="mb-2 text-gray-500 dark:text-gray-400">
-                                            The curriculum for 8th grade is split into two parts:
-                                        </p>
-                                        <ol
-                                            class="space-y-4 text-gray-500 list-inside dark:text-gray-400">
-                                            <li>
-                                                Part 1) Covers the moral values taught by the Qur'an
-                                                and Sunnah. (book 1)
-                                            </li>
-                                            <li>
-                                                Part 2) The history of Al- Khulafaa Ar-Rashideen and
-                                                Muslims rule in Spain are covered.(book 2)
-                                                <ul
-                                                    class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                                                    <li>Occurrence of events</li>
-                                                    <li>
-                                                        How Muslims dealt with different situation
-                                                        following the principles of Islam or lack
-                                                        thereof
-                                                    </li>
-                                                    <li>
-                                                        Important contributions of each Khalifah to
-                                                        the young Islamic State
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ol>
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Weekend School Registration Cost Per Year:
+                                        <br />
+                                        ISCJ Membershipfee : $425 per family <br />
+                                        Tuition per child : $210 <br />
+                                        Expansion/Operations fee per child: $100 PTA fees: $20
+                                        <br />
+                                        Discount per child: $40 (starting from the third child) ***
+                                        <br />
+                                        ***For all Credit Card payments a transaction fee will be
+                                        charged ***
                                     </div>
                                 </div>
                             </table>
@@ -1065,34 +374,7 @@
             </section>
         </div>
 
-        <!-- our mission Hero Section -->
-        <section id="hero">
-            <!-- our mission container -->
-            <div
-                class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
-                <!-- our missing -->
-                <div class="flex flex-col mb-10 space-y-12 md:w-1/2">
-                    <h1
-                        class="max-w-md text-4xl text-royalBlue dark:text-royalBlue font-bold text-center md:text-5xl md:text-left">
-                        Register
-                    </h1>
-                    <p class="max-w-full text-center text-darkGrayishBlue md:text-left">
-                        * Insert Registration Information. <br />
-                        * * * * Organize info in presentable way.<br />
-                        (change pic to right)
-                    </p>
-                </div>
-                <!-- Image -->
-                <div class="hidden md:block md:w-1/2">
-                    <img src="img/quran.png" alt="" />
-                </div>
-            </div>
-        </section>
-
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
+        <!-- footer -->
         <footer class="bg-white dark:bg-gray-900">
             <div class="grid grid-cols-1 gap-8 px-6 py-8 md:grid-cols-4">
                 <!-- logo -->
