@@ -54,7 +54,7 @@
                         <li class="w-full">
                             <a
                                 href="./index.html"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-royalBlue md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 aria-current="page"
                                 >Home</a
                             >
@@ -63,7 +63,7 @@
                         <li>
                             <a
                                 href="./about.html"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-royalBlue md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >About</a
                             >
                         </li>
@@ -71,7 +71,7 @@
                         <li>
                             <a
                                 href="./curriculum.html"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-royalBlue md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >Curriculum</a
                             >
                         </li>
@@ -79,7 +79,7 @@
                         <li>
                             <a
                                 href="./calendar.html"
-                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-royalBlue md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >Calendar</a
                             >
                         </li>
@@ -88,7 +88,7 @@
                             <!-- block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-royalBlue font-bold md:p-0 dark:text-white -->
                             <a
                                 href="./register.html"
-                                class="border-collapse inline py-2 pl-3 pr-4 text-veryDarkBlue border border-veryDarkBlue hover:bg-paleBlue hover:border-paleBlue font-bold uppercase rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:text-royalBlue dark:hover:text-veryDarkBlue dark:border-royalBlue">
+                                class="border-collapse inline py-2 pl-3 pr-4 text-veryDarkBlue border border-veryDarkBlue hover:bg-veryDarkBlue hover:text-white font-bold uppercase rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:text-gray-400 dark:hover:bg-paleBlue dark:hover:text-veryDarkBlue dark:border-paleBlue">
                                 <strong>Register</strong></a
                             >
                         </li>
@@ -97,7 +97,136 @@
             </div>
         </nav>
         <!-- -------------------------------------------NAVBAR END---------------------------------------------------------- -->
+        <div>
+            <div class="">
+                <section id="hero">
+                    <div
+                        class="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
+                        <div class="text-right pt-2 container">
+                            <!--                                class="border-collapse inline py-2 pl-3 pr-4 text-veryDarkBlue border border-veryDarkBlue hover:bg-veryDarkBlue hover:text-white font-bold uppercase rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 dark:text-gray-400 dark:hover:bg-paleBlue dark:hover:text-veryDarkBlue dark:border-paleBlue">
+  -->
+                            <button
+                                class="border-collapse inline py-0.5 pl-1 pr-1 text-xs text-veryDarkBlue hover:text-white hover:bg-veryDarkBlue border border-veryDarkBlue rounded outline-none focus:outline-none ease-linear transition-all duration-150 dark:text-royalBlue dark:hover:text-royalBlue dark:border-royalBlue"
+                                type="button"
+                                data-drawer-target="drawer-contact"
+                                data-drawer-show="drawer-contact"
+                                aria-controls="drawer-contact">
+                                Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
+            <!-- drawer component -->
+            <div
+                id="drawer-contact"
+                class="fixed z-40 h-screen p-4 overflow-y-auto outline bg-paleBlue w-80 dark:bg-gray-800 transition-transform left-0 top-0 -translate-x-full"
+                tabindex="-1"
+                aria-labelledby="drawer-contact-label">
+                <h5
+                    id="drawer-label"
+                    class="inline-flex items-center mb-6 text-base font-semibold text-gray-500 uppercase dark:text-gray-400">
+                    <svg
+                        class="w-5 h-5 mr-2"
+                        aria-hidden="true"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            fill-rule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    Contact us
+                </h5>
+                <button
+                    type="button"
+                    data-drawer-hide="drawer-contact"
+                    aria-controls="drawer-contact"
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                    <svg
+                        aria-hidden="true"
+                        class="w-5 h-5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="sr-only">Close menu</span>
+                </button>
+                <form action="#" class="mb-6">
+                    <div class="mb-6">
+                        <label
+                            for="email"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Your email</label
+                        >
+                        <input
+                            type="email"
+                            id="email"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="name@company.com"
+                            required />
+                    </div>
+                    <div class="mb-6">
+                        <label
+                            for="subject"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Subject</label
+                        >
+                        <input
+                            type="text"
+                            id="subject"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Let us know how we can help you"
+                            required />
+                    </div>
+                    <div class="mb-6">
+                        <label
+                            for="message"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Your message</label
+                        >
+                        <textarea
+                            id="message"
+                            rows="4"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Your message..."></textarea>
+                    </div>
+                    <button
+                        type="submit"
+                        class="text-white bg-royalBlue hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-royalBlue dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">
+                        Send message
+                    </button>
+                </form>
+                <ul class="text-gray-500 text-sm dark:text-gray-400">
+                    <li class="">
+                        <a href="mailto:admin@iscjwes.org" class="hover:underline"
+                            >admin@iscjwes.org</a
+                        >
+                    </li>
+                    <li class="mb-4">
+                        <a href="mailto:volunteers@iscjwes.org" class="hover:underline"
+                            >volunteers@iscjwes.org</a
+                        >
+                    </li>
+                    <li class="mb-4">
+                        <a href="tel:+17326390178" class="hover:underline">1-732-639-0178</a>
+                    </li>
+
+                    <!-- address -->
+                    <li class="mb-4">
+                        <a href="https://goo.gl/maps/Yx9EQ7ZyE3G3ZuAF6" class="hover:underline">
+                            4145 Route 1 South and Promenade Blvd Monmouth Junction, NJ 08852-0628
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- Modal toggle -->
 
         <script>
@@ -124,7 +253,6 @@
                     </div>
                 </div>
             </section>
-            <br />
 
             <!-- accordian -->
             <section id="hero">
@@ -333,7 +461,7 @@
                                         aria-expanded="false"
                                         aria-controls="accordion-collapse-body-8">
                                         <span>
-                                            <strong>Admissions</strong>
+                                            <strong>Registration Cost Information</strong>
                                         </span>
                                         <svg
                                             data-accordion-icon
@@ -354,16 +482,246 @@
                                     aria-labelledby="accordion-collapse-heading-8">
                                     <div
                                         class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                                        Weekend School Registration Cost Per Year:
+                                        <p class="mb-2 font-bold text-gray-500 dark:text-gray-400">
+                                            Weekend School Registration Cost Per Year:
+                                        </p>
+
+                                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                                            <li>ISCJ Membershipfee : $425 per family</li>
+                                            <li>Tuition per child : $210</li>
+                                            <li>
+                                                Expansion/Operations fee per child: $100 PTA fees:
+                                                $20
+                                            </li>
+                                            <li>
+                                                Discount per child: $40 (starting from the third
+                                                child)
+                                            </li>
+                                            <li>
+                                                ***For all Credit Card payments a transaction fee
+                                                will be charged ***
+                                            </li>
+                                            <!-- <li>ISCJ Membershipfee : $425 per family</li>
+                                            <li>ISCJ Membershipfee : $425 per family</li>
+                                            <li>
+                                                Part 2) The history of Al- Khulafaa Ar-Rashideen and
+                                                Muslims rule in Spain are covered.(book 2)
+                                                <ul
+                                                    class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                                                    <li>Occurrence of events</li>
+                                                    <li>
+                                                        How Muslims dealt with different situation
+                                                        following the principles of Islam or lack
+                                                        thereof
+                                                    </li>
+                                                    <li>
+                                                        Important contributions of each Khalifah to
+                                                        the young Islamic State
+                                                    </li>
+                                                </ul>
+                                            </li> -->
+                                        </ul>
+                                        <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <br />
+                                            Registration fees include all in-class handouts, study
+                                            guides, textbooks and workbooks. Lunch is not included.
+                                            Students must bring their own bag lunch.
+                                        </p>
                                         <br />
-                                        ISCJ Membershipfee : $425 per family <br />
-                                        Tuition per child : $210 <br />
-                                        Expansion/Operations fee per child: $100 PTA fees: $20
+
+                                        <p
+                                            class="mb-2 font-bold underline text-gray-500 dark:text-gray-400">
+                                            Payment Breakdown:
+                                        </p>
+                                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                                            <li>1 Child: $755.00 = $425 + $210 + $100 + $20</li>
+                                            <li>2 Children: $1065.00 = $425 + $420 + $200 + $20</li>
+                                            <li>
+                                                3 Children: $1335.00 = $425 + $630 + $300 + $20 -
+                                                $40 (discount)
+                                            </li>
+                                            <li>
+                                                4 Children: $1605.00 = $425 + $840 + $400 + $20 -
+                                                $80 (discount)
+                                            </li>
+                                            <li>
+                                                5 Children: $1875.00 = $425 + $1050 + $500 + $20 -
+                                                $120 (discount)
+                                            </li>
+                                            <li>
+                                                6 Children: $2145.00 = $425 + $1260 + $600 + $20 -
+                                                $160 (discount)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </section>
+
+            <br />
+            <!-- faq header -->
+            <section id="hero">
+                <div
+                    class="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
+                    <div class="flex flex-col mb-10 space-y-12 md:w-1/2">
+                        <h1
+                            class="max-w-md text-4xl text-royalBlue dark:text-royalBlue font-bold text-center md:text-5xl md:text-left">
+                            FAQ's
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hero">
+                <div
+                    class="container mx-auto text-xs md:text-sm flex flex-col-reverse item-center px-0 md:px-6">
+                    <div
+                        class="relative overflow-x-auto shadow-md sm:rounded-lg border border-veryDarkBlue">
+                        <div id="accordion-collapse " data-accordion="collapse">
+                            <table
+                                class="w-full table-fixed text-sm text-left text-gray-500 dark:text-gray-400">
+                                <!-- 1st -->
+                                <h2
+                                    id="accordion-collapse-heading-21"
+                                    class="bg-white dark:bg-gray-800">
+                                    <button
+                                        type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-collapse-body-21"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-body-21">
+                                        <span>
+                                            <strong>Do you have a multi-child discount? </strong>
+                                        </span>
+                                        <svg
+                                            data-accordion-icon
+                                            class="w-6 h-6 shrink-0"
+                                            fill="currentColor"
+                                            viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+
+                                <div
+                                    id="accordion-collapse-body-21"
+                                    class="hidden"
+                                    aria-labelledby="accordion-collapse-heading-21">
+                                    <div
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Yes, we offer a multi-child discount. It is already included
+                                        in the Registration Cost Information and will be
+                                        automatically applied when you check-out on the online
+                                        registration form.
                                         <br />
-                                        Discount per child: $40 (starting from the third child) ***
                                         <br />
-                                        ***For all Credit Card payments a transaction fee will be
-                                        charged ***
+                                        <hr />
+                                        REGISTRATION IS IN PERSON THOUGH...?
+                                    </div>
+                                </div>
+
+                                <!-- 2nd -->
+                                <h2
+                                    id="accordion-collapse-heading-31"
+                                    class="bg-white dark:bg-gray-800">
+                                    <button
+                                        type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-collapse-body-31"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-body-31">
+                                        <span>
+                                            <strong>Do you offer any financial assistance?</strong>
+                                        </span>
+                                        <svg
+                                            data-accordion-icon
+                                            class="w-6 h-6 shrink-0"
+                                            fill="currentColor"
+                                            viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="accordion-collapse-body-31"
+                                    class="hidden"
+                                    aria-labelledby="accordion-collapse-heading-31">
+                                    <div
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        Yes, on a case by case basis. If you need financial
+                                        assistance, you will need to fill out the form using the
+                                        link below. Financial assistance applications are reviewed
+                                        on a case by case basis and we will ask you to meet in
+                                        person/phone call or provide some documentation which may
+                                        include proof of income (tax returns, pay stubs etc.) and/or
+                                        any other relevant documents you feel would help us make a
+                                        decision. You must complete the form before you register in
+                                        order to receive the financial aid.
+                                        <br />
+                                        <br />
+                                        <hr />
+                                        INSERT FORM...?
+                                    </div>
+                                </div>
+
+                                <!-- 3rd -->
+                                <h2
+                                    id="accordion-collapse-heading-41"
+                                    class="bg-white dark:bg-gray-800">
+                                    <button
+                                        type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-collapse-body-41"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-body-41">
+                                        <span>
+                                            <strong>Do you allow payment plans?</strong>
+                                        </span>
+                                        <svg
+                                            data-accordion-icon
+                                            class="w-6 h-6 shrink-0"
+                                            fill="currentColor"
+                                            viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+
+                                <div
+                                    id="accordion-collapse-body-41"
+                                    class="hidden"
+                                    aria-labelledby="accordion-collapse-heading-41">
+                                    <div
+                                        class="p-5 font-medium border border-b-0 text-gray-500 dark:text-gray-400 bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        If you need a payment plan you can choose the option to pay
+                                        in installments during your online registration. The payment
+                                        plan we offer is 4 equal installments to be paid over a
+                                        period of four months.
+                                        <br />
+                                        Payment plans by default will be auto-enrolled to deduct the
+                                        remaining balance from your selected method of payment on
+                                        the dates specified above.
+                                        <br />
+                                        <br />
+                                        <hr />
+                                        CONSTANT DISCREPENCY ABOUT REGISTRATION... IN PERSON OR
+                                        ONLINE?
                                     </div>
                                 </div>
                             </table>
